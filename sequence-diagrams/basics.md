@@ -271,25 +271,25 @@ sequenceDiagram
 
     Customer->>Cart: Add items
     Customer->>Cart: Checkout
-    Cart->>+Payment: Process payment
+    Cart->>Payment: Process payment
 
     Payment->>Payment: Validate card
     alt Payment successful
-        Payment-->>-Cart: Payment confirmed
+        Payment-->>Cart: Payment confirmed
 
-        Cart->>+Inventory: Reserve items
+        Cart->>Inventory: Reserve items
         alt Items available
             Inventory->>Inventory: Reduce stock
-            Inventory-->>-Cart: Reserved
+            Inventory-->>Cart: Reserved
 
             Cart->>Order: Create order
             Order-->>Customer: Order confirmation
         else Out of stock
-            Inventory-->>-Cart: Insufficient stock
+            Inventory-->>Cart: Insufficient stock
             Cart-->>Customer: Items unavailable
         end
     else Payment failed
-        Payment-->>-Cart: Payment declined
+        Payment-->>Cart: Payment declined
         Cart-->>Customer: Payment error
     end
 ```
