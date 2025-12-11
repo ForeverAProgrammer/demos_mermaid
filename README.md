@@ -22,6 +22,7 @@ flowchart TD
 ### Flowcharts
 
 Complete guide to creating flowcharts:
+
 - [Node Shapes](./flowcharts/nodes.md) - All available node shapes and syntax
 - [Links Between Nodes](./flowcharts/links-between-nodes.md) - Connecting nodes with various arrow styles
 - [Themes](./flowcharts/themes.md) - Color themes and visual styling
@@ -31,11 +32,13 @@ Complete guide to creating flowcharts:
 ### Sequence Diagrams
 
 Visualize interactions between components:
+
 - [Sequence Diagram Basics](./sequence-diagrams/basics.md) - Complete guide with practical examples
 
 ### Other Diagram Types
 
 Explore additional diagram types:
+
 - [Other Diagrams](./other-diagrams/README.md) - Class, state, ERD, Gantt, git graphs, and more
 
 ## Quick Start Guide
@@ -54,6 +57,7 @@ flowchart LR
 ### 2. Choose Your Diagram Type
 
 Common diagram types:
+
 - `flowchart` - Process flows and decision trees
 - `sequenceDiagram` - Interactions and message passing
 - `classDiagram` - Object-oriented structures
@@ -109,6 +113,7 @@ stateDiagram-v2
 ## GitHub Compatibility
 
 All examples in this repository are tested for GitHub compatibility. Note:
+
 - Most standard features are fully supported
 - Some experimental features may not render
 - Always test on GitHub before finalizing
@@ -125,7 +130,6 @@ All examples in this repository are tested for GitHub compatibility. Note:
 
 - [Mermaid.js Official Documentation](https://mermaid.js.org/)
 - [Mermaid Live Editor](https://mermaid.live/) - Test your diagrams
-- [GitHub Mermaid Support](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
 - [Markdown Guide](https://www.markdownguide.org/)
 
 ## Contributing

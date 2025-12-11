@@ -207,6 +207,7 @@ requirementDiagram
 Most of these diagram types are supported on GitHub, but some newer types may have limited support. Always test your diagrams on GitHub to ensure proper rendering.
 
 **Well-supported on GitHub:**
+
 - Flowcharts
 - Sequence diagrams
 - Class diagrams
@@ -217,6 +218,7 @@ Most of these diagram types are supported on GitHub, but some newer types may ha
 - Git graphs
 
 **May have limited support:**
+
 - User journey
 - Mindmap (newer feature)
 - Timeline (newer feature)
@@ -227,4 +229,3 @@ Most of these diagram types are supported on GitHub, but some newer types may ha
 
 - [Mermaid.js Documentation](https://mermaid.js.org/)
 - [Mermaid Live Editor](https://mermaid.live/)
-- [GitHub's Mermaid Support](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
