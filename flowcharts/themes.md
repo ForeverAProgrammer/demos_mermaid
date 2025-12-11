@@ -199,6 +199,5 @@ flowchart TD
 ## Resources
 
 - [Mermaid.js Theme Documentation](https://mermaid.js.org/config/theming.html)
-- [Mermaid Configuration Options](https://mermaid.js.org/config/setup/modules/mermaidAPI.html)
 - [Mermaid Live Editor](https://mermaid.live/) - Test themes interactively
 
